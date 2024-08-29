@@ -1,0 +1,13 @@
+Classes and Objects: The code defines a Shoe class, which serves as a blueprint for creating shoe objects.
+
+Constructor (__init__ method): The __init__ method is the constructor of the Shoe class. It initializes the attributes of a shoe object when it is created.
+
+Instance Variables: The code uses instance variables (brand, size, condition) to store object-specific data for each shoe object.
+
+Properties and Getters/Setters: The @property decorator and the corresponding setter method are used to define a getter and setter for the size attribute, allowing controlled access and modification of the attribute.
+
+Instance Methods: The cobble method is an instance method of the Shoe class. It represents the action of repairing a shoe and updates the condition attribute accordingly.
+
+Print Statements: The code uses print() statements to output messages, such as the error message when an invalid size is provided and the message indicating that the shoe has been repaired.
+
+Type Checking: The code uses the isinstance() function to check if the value parameter is an instance of the int class, ensuring that the size attribute is always an integer.
